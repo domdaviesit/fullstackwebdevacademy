@@ -76,6 +76,7 @@
         <textarea cols="30" rows="10" id="message" name="message"></textarea>
       </div>
 
+      <!-- Datalist element - Method of setting a list of options for a user to select in a text field, while leaving the ability to enter a custom value. -->
       <div>
         <label for="subject">Subject: </label>
         <select name="" id="subject">
@@ -93,9 +94,22 @@
             <option value="advice">Advice</option>
             <option value="other">Other</option>
           </optgroup>
-
         </select>
       </div>
+
+      <!-- not using due to lack of browser support https://caniuse.com/#search=datalist -->
+      <!-- <div>
+        <label for="subject">Subject: </label>
+        <input type="text" list="subjects" id="subject" placeholder="Enter your subject">
+        <datalist id="subjects">
+          <option value="returns">Returns</option>
+          <option value="faulty_item">Faulty Item</option>
+          <option value="delivery">Delivery info</option>
+          <option value="order_tracking">Tracking my order</option>
+          <option value="advice">Advice</option>
+          <option value="other">Other</option>
+        </datalist>
+      </div> -->
 
       <div>
         <p>Subscribe for future offers by:</p>
