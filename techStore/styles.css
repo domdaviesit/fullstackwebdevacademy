@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow');
 html {
   background: #f7f7f7;
 }
 
 body {
+  font-family: 'Barlow', sans-serif;
   background: #ffffff;
   max-width: 1000px;
   margin: 0 auto;
