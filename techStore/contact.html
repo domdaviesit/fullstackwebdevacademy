@@ -75,6 +75,28 @@
         <label for="message">Message:</label>
         <textarea cols="30" rows="10" id="message" name="message"></textarea>
       </div>
+
+      <div>
+        <label for="subject">Subject: </label>
+        <select name="" id="subject">
+          <!-- to select more than one option add multiple to the select tag -->
+          <optgroup label="Product Issues">
+            <!-- optgroup groups together related info -->
+            <option value="returns">Returns</option>
+            <option value="faulty_item">Faulty Item</option>
+          </optgroup>
+          <optgroup label="Delivery">
+            <option value="delivery">Delivery info</option>
+            <option value="order_tracking">Tracking my order</option>
+          </optgroup>
+          <optgroup label="Other">
+            <option value="advice">Advice</option>
+            <option value="other">Other</option>
+          </optgroup>
+
+        </select>
+      </div>
+
       <div>
         <p>Subscribe for future offers by:</p>
         <label for="newsletter">Newsletter</label>
